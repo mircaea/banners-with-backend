@@ -21,9 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 - The backend server uses express with: .env variables; routes & controllers; accepts only `/api` requests.
 
-- Get all the banners from db:
-
-`[http://localhost:8080/api/getBanners](http://localhost:8080/api/getBanners)`
+- Get all the banners from the db: [http://localhost:8080/api/getBanners](http://localhost:8080/api/getBanners)
 
 ## Frontend
 
