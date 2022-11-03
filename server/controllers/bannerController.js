@@ -46,7 +46,6 @@ const saveBanner = async (req, res, next) => {
       docRef = await addDoc(COLLECTION_BANNERS, { text, url });
     }
     const documentData = await get_document_using_document_reference(docRef);
-    console.log("SERVER 2: ", documentData);
     res.status(200).send(documentData);
   } catch (error) {
     res.status(400).send(error?.message);
