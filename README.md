@@ -14,19 +14,19 @@ GitHub CLI:
 
 `npm run start-server`
 
-Runs the app in the development mode.\
+Run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Backend.
+## Backend
 
-The backend server uses express with: .env variables; routes & controllers; accepts only `/api` requests.
+- The backend server uses express with: .env variables; routes & controllers; accepts only `/api` requests.
 
-Get all the banners from db:
+- Get all the banners from db:
 
-`http://localhost:8080/api/getBanners`
+`[http://localhost:8080/api/getBanners](http://localhost:8080/api/getBanners)`
 
-## Frontend.
+## Frontend
 
-- A custom hook called `useFirestore` is used for making axios calls to the backend. These calls use the responses to update the App Context.
+- A custom hook called `useFirestore` is used for making axios calls to the backend. These calls use the response from backend to update the App Context.
 
 - The banners are being fetched every time the pages Landing & Dashboard are being hit; also updating App Context.
